@@ -15,7 +15,7 @@ else:
             else:
                 if idade < 14 and trabalho == 's' or trabalho == 'S':
                     print('Cadastro inválido, reprovado!')
-                elif idade > 14 or idade < 16:
+                elif idade > 14 and idade < 16:
                     if trabalho == 's' or trabalho == 'S':
                         print('Aprovado com ressalas.')
                 else:
