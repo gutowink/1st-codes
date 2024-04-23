@@ -1,4 +1,4 @@
-idade = int(input('Informe sua idade: '))
+idade = int(input('Informe o ano do seu nascimento: '))
 idade = 2024 - idade
 if idade > 150 or idade < 0:
     print('Idade inválida, reprovado!')
