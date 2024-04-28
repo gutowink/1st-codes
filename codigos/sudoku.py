@@ -42,10 +42,10 @@ for j in range(len(sudoku_grid_B)):
     aux += SOMA
     SOMA = 0
     if aux > 45 or aux < 45: # Se a aux que calcula a soma da coluna é diferente de 45 então esta coluna está errada.
-        soma += 1 
-        aux = 0
+        soma += 1 # Esta variável recebe + 1 toda vez que alguma coluna inválida for identificada.
+        aux = 0 # A aux é zerada para começar do zero a contagem da próxima coluna.
     else:
-        aux = 0
+        aux = 0 # Caso a coluna esteja correta também vai ser zerada para calcular a próxima coluna.
 if soma != 0:
     print('Colunas inválidas.')
     exit()
