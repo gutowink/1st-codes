@@ -18,7 +18,7 @@ if pergunta == '1':
     print(f'A frase que você digitou criptografada é: {criptografia02}')
 else:
     if pergunta == '2':
-        frase = input('Digite a frase que você deseja criptografar: ')
+        frase = input('Digite a frase que você deseja descriptografar: ')
         frase_formatada = frase.capitalize()
         desmontar = [letra for letra in frase_formatada]
         lista = []
